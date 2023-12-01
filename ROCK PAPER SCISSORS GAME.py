@@ -22,13 +22,13 @@ matches = 0
 
 # Opens images as PhotoImage Objects
 Rock = ImageTk.PhotoImage(Image.open(
-    "C://Users/USER/Documents/PYTHON PROJECTS/Images/Rock Paper Scissors Game/Rock.png").resize((200, 200), Image.ANTIALIAS))
+    "./Images/Rock Paper Scissors Game/Rock.png").resize((200, 200), Image.ANTIALIAS))
 Paper = ImageTk.PhotoImage(Image.open(
-    "C://Users/USER/Documents/PYTHON PROJECTS/Images/Rock Paper Scissors Game/Paper.png").resize((200, 200), Image.ANTIALIAS))
+    "./Images/Rock Paper Scissors Game/Paper.png").resize((200, 200), Image.ANTIALIAS))
 Scissors = ImageTk.PhotoImage(Image.open(
-    "C://Users/USER/Documents/PYTHON PROJECTS/Images/Rock Paper Scissors Game/Scissors.png").resize((200, 200), Image.ANTIALIAS))
+    "./Images/Rock Paper Scissors Game/Scissors.png").resize((200, 200), Image.ANTIALIAS))
 Placeholder = ImageTk.PhotoImage(Image.open(
-    "C://Users/USER/Documents/PYTHON PROJECTS/Images/Rock Paper Scissors Game/Placeholder.png").resize((200, 200), Image.ANTIALIAS))
+    "./Images/Rock Paper Scissors Game/Placeholder.png").resize((200, 200), Image.ANTIALIAS))
 
 # Image variables cast to dictionary for easy indexing
 game_dict = {"Rock": Rock, "Paper": Paper, "Scissors": Scissors}
